@@ -2,7 +2,7 @@
 
 <h2 class="my-4">Recipes</h2>
 <div class="row">
-    <% recipes.forEach(recipe => { %>
+    <%- recipes.forEach(recipe => { %>
         <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
                 <img src="<%= recipe.image %>" class="card-img-top" alt="<%= recipe.name %>">
@@ -13,5 +13,5 @@
                 </div>
             </div>
         </div>
-    <% }) %>
+    <%- }) %>
 </div>
